@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ajax_grid {
+  width: 504px;
+  height: 504px;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 83.2px;
+  height: 83.2px;
+  background: rgb(248, 250, 248);
+  display: inline-block;
+  cursor: pointer;
+  line-height: 79px;
+  vertical-align: middle;
+  border: 1px solid black;
+  text-align: center;
+}
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
